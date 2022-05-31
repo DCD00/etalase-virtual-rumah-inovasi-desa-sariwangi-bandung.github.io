@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Rumah Inovasi Desa Sariwangi</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Rumah Inovasi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Beranda</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#produk" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Produk
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#bunga">Bunga</a></li>
+                <li><a class="dropdown-item" href="#lele">Lele</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#kerajinan">Kerajinan Kayu</a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#produk">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeri">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="halaman/about.html">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontak</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Cari Produk" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Cari</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="img/gambar1.jpg" class="d-block w-100" alt="gambar1" height="500">
+          <div class="carousel-caption d-none d-md-block top-50">
+            <h1>SELAMAT DATANG DI RUMAH INOVASI</h1>
+            <h1>DESA SARIWANGI</h1>
+            <h4 class="text-capitalize">Mari lihat dan beli produk-produk Desa Sariwangi</h4>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/gambar4.png" class="d-block w-100" alt="gambar2" height="500">
+          <div class="carousel-caption d-none d-md-block top-50">
+            <h1>SELAMAT DATANG DI RUMAH INOVASI</h1>
+            <h1>DESA SARIWANGI</h1>
+            <h4 class="text-capitalize">Mari lihat dan beli produk-produk Desa Sariwangi</h4>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Gambar3.png" class="d-block w-100" alt="Gambar3" height="500">
+          <div class="carousel-caption d-none d-md-block top-50">
+            <h1>SELAMAT DATANG DI RUMAH INOVASI</h1>
+            <h1>DESA SARIWANGI</h1>
+            <h4 class="text-capitalize">Mari lihat dan beli produk-produk Desa Sariwangi</h4>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Produk -->
+    <section class="produk" id="produk">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center pt-4">
+            <h2>Produk</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="card m-4" style="width: 18rem;">
+            <img src="img/bunga1.jpg" class="card-img-top" alt="bunga1" height="300">
+            <div class="card-body">
+              <h5 class="card-title">Bunga Mawar</h5>
+              <p class="card-text">Di jual bunga mawar dengan harga Rp. 50.000</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Selengkapnya
+              </button>
+            </div>
+          </div>
+          <div class="card m-4" style="width: 18rem;">
+            <img src="img/bunga2.jpg" class="card-img-top" alt="bunga2" height="300">
+            <div class="card-body">
+              <h5 class="card-title">Bunga Melati</h5>
+              <p class="card-text">Di jual bunga melati dengan harga Rp. 45.000</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Selengkapnya
+              </button>
+            </div>
+          </div>
+          <div class="card m-4" style="width: 18rem;">
+            <img src="img/lele1.jpg" class="card-img-top" alt="lele1" height="300">
+            <div class="card-body">
+              <h5 class="card-title">Ikan Lele</h5>
+              <p class="card-text">Di jual ikan lele dengan harga Rp. 30.000 /kg</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Selengkapnya
+              </button>
+            </div>
+          </div>
+          <div class="card m-4" style="width: 18rem;">
+            <img src="img/kerajinan1.jpg" class="card-img-top" alt="kerajinan1" height="300">
+            <div class="card-body">
+              <h5 class="card-title">Stand Hp</h5>
+              <p class="card-text">Di jual Stand Hp dari kayu dengan harga Rp. 20.000</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Selengkapnya
+                </button>
+            </div>
+          </div>
+          <div class="card m-4" style="width: 18rem;">
+            <img src="img/bunga5.jpg" class="card-img-top" alt="bunga5" height="300">
+            <div class="card-body">
+              <h5 class="card-title">Bunga Matahari</h5>
+              <p class="card-text">Di jual bunga matahari dengan harga Rp. 65.000</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Selengkapnya
+                </button>
+            </div>
+          </div>
+          <div class="card m-4" style="width: 18rem;">
+            <img src="img/kerajinan2.jpg" class="card-img-top" alt="kerajinan2" height="300">
+            <div class="card-body">
+              <h5 class="card-title">Gelas Minum</h5>
+              <p class="card-text">Di jual gelas minum dari kayu dengan harga Rp. 15.000</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Selengkapnya
+              </button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pegination -->
+    <section class="pindahHalaman" id="pindahHalaman">
+      <div class="container">
+        <nav aria-label="halaman">
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <a class="page-link color-secondary" href="#" tabindex="-1" aria-disabled="true">Sebelumnya</a>
+            </li>
+            <li class="page-item  active"><a class="page-link" href="#" aria-current="page">1</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Berikutnya</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="galeri bg-dark" id="galeri">
+      <div class="container">
+        <div class="container">
+          <div class="row mb-4 pt-4">
+            <div class="col text-center text-white">
+              <h2>Galeri Aktivitas Masyarakat</h2>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-md">
+              <div class="card">
+                <img class="card-img-top img-thumbnail" src="img/galeri1.jpeg" height="250" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card">
+                <img class="card-img-top img-thumbnail" src="img/galeri2.jpeg" height="250" alt="Card image cap">
+              </div>
+            </div>  
+            <div class="col-md">
+              <div class="card">
+                <img class="card-img-top img-thumbnail" src="img/galeri3.jpeg" height="250" alt="Card image cap">
+              </div>
+            </div>      
+          </div>
+          <div class="row mb-4">
+            <div class="col-md">
+              <div class="card">
+                <img class="card-img-top img-thumbnail" src="img/galeri4.jpeg" height="250" alt="Card image cap">
+              </div>
+            </div>
+                <div class="col-md">
+              <div class="card">
+                <img class="card-img-top img-thumbnail" src="img/galeri5.jpeg" height="250" alt="Card image cap">
+              </div>
+            </div>  
+                <div class="col-md">
+              <div class="card">
+                <img class="card-img-top img-thumbnail" src="img/galeri6.jpeg" height="250" alt="Card image cap">
+              </div>
+            </div>      
+          </div>
+      </div> 
+      <div class="pb-4"></div>
+    </section>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Bunga mawar</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-4">
+                  <img src="img/bunga1.jpg" id="gambar" class="img-fluid">
+              </div>
+
+              <div class="col-md-8">
+                  <ul class="list-group">
+                      <li class="list-group-item">
+                          <h3 id="nama">Jenis : Mawar Merah</h3>
+                      </li>
+                      <li class="list-group-item">Stok : 20</li>
+                      <li class="list-group-item">Berat : 200 gram</li>
+                      <li class="list-group-item">Deskripsi : Keindahan bunga mawar 
+                        dianggap bisa menjadi perlambang dari rasa cinta serta kasih 
+                        sayang dari orang yang memberikannya</li>
+                      <li class="list-group-item">Harga : Rp. 50.000</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://api.whatsapp.com/send?phone=62895365895787" class="btn btn-success">Telepon</a>
+        <a href="https://api.whatsapp.com/send?phone=62895365895787&text=Halo%20mau%20beli%20bunga" class="btn btn-secondary ml-2">Chat</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="row pt-4 mb-4">
+      <div class="col text-center">
+        <h2>Kontak</h2>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-4">
+        <div class="card bg-secondary text-white mb-4 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Hubungi Pengelola</h5>
+            <p class="card-text">Silahkan hubungi petugas pengelola bila ada yang ingin ditanyakan lebih detail mengenai rumah inovasi</p>
+          </div>
+        </div>
+        
+        <ul class="list-group mb-4">
+          <li class="list-group-item"><h3>Lokasi</h3></li>
+          <li class="list-group-item">Kantor Pengelola</li>
+          <li class="list-group-item">Jl. Sariwangi Selatan No.205, Kabupaten Bandung Barat</li>
+          <li class="list-group-item">Jawa Barat, Indonesia</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-6">
+        
+        <form>
+          <div class="form-group mb-2">
+            <label for="nama">Nama</label>
+            <input type="text" class="form-control" id="nama">
+          </div>
+          <div class="form-group mb-2">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" id="email">
+          </div>
+          <div class="form-group mb-2">
+            <label for="phone">Nomor Telepon</label>
+            <input type="text" class="form-control" id="phone">
+          </div>
+          <div class="form-group mb-2">
+            <label for="message">Pesan</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <div class="form-group mb-2">
+            <button type="button" class="btn btn-secondary">Kirim Pesan</button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- footer -->
+<footer class="bg-dark text-white mt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <p>Tim Ormawa UNPAS Copyright &copy; 2022.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
